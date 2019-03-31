@@ -1,0 +1,52 @@
+.topContainer{
+  background-color: #fff;
+  width: 97%;
+  height: 90vh;
+  min-width: 390px;
+  margin: 5vh auto 0 auto;
+  box-shadow: 1px 1px 25px #000;
+  border-radius: 5px;
+  position: relative;
+  @media (min-width: 768px) {
+    width: 65%;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+    .image{
+      height: 60px;
+      width: 60px;
+      background: url(./assets/kuLogo.png) no-repeat 50%;
+      background-size: contain;
+      margin-right: 10px;
+    }
+    .content{
+      user-select: none;
+      h1{
+        font-weight: bold;
+        margin: 0;
+        color: whitesmoke;
+      }
+      span{
+        color: #999;
+        font-weight: bold;
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    text-align: center;
+    min-height: 30px;
+    line-height: 30px;
+    background-color: #bbb;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    a{
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}

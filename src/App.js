@@ -1,28 +1,48 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+// import { Tab } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css';
+import './App.scss'
+import Semester from './Components/Semester/Semester';
 
-class App extends Component {
+export default class App extends Component {
+
+  state = {
+    semesters: 1,
+    semesterResults: []
+  }
+
+  resultUpdater = (id) => {
+    return (val) => {
+      const updatedResults = [...this.state.semesterResults];
+      updatedResults[id] = val;
+      this.setState({
+        semesterResults: updatedResults
+      })
+    }
+  }
+
   render() {
+    const renderSemesters = [];
+    for (let i = 0; i < this.state.semesters; i++) {
+      renderSemesters.push(<Semester resultUpdater={this.resultUpdater(i)} key={i} id={i} />)
+    }
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className='topContainer'>
+        <div className='heading'>
+          <div className='image'></div>
+          <div className='content'>
+            <h1>CGPA Calculator</h1>
+            <span>University of Karachi</span>
+          </div>
+        </div>
+        <div className="main">
+          {renderSemesters}
+        </div>
+        <div className="footer">
+          <span>Calculations are performed by the equations and table provided on <a rel="noopener noreferrer" href="http://www.uok.edu.pk/sem_results/rules.php" target='_blank'>Official Website</a></span>
+        </div>
       </div>
-    );
+    )
   }
 }
-
-export default App;

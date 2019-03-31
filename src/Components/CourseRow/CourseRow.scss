@@ -1,0 +1,21 @@
+.courseRow{
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .inputMarks{
+    width: 55%;
+  }
+  .inputCredits{
+    margin-left: 5px;
+    width: 30%;
+  } 
+  .closeIcon{
+    cursor: pointer;
+    margin-left: 5px;
+    &:hover{
+      color: rgb(190, 0, 0);
+    }
+  }
+}

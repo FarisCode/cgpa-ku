@@ -1,0 +1,23 @@
+.semesterComponent{
+  width: 95%;
+  margin: 15px auto;
+  .topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .closeIcon{
+      cursor: pointer;
+      transition: 0.2s;
+    }
+  }
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 5%;
+    .result{
+      font-weight: bold;
+      font-size: 17px;
+    }
+  }
+}
