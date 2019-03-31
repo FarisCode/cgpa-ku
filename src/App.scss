@@ -2,13 +2,18 @@
   background-color: #fff;
   width: 97%;
   height: 90vh;
-  min-width: 390px;
+  min-width: 350px;
   margin: 5vh auto 0 auto;
   box-shadow: 1px 1px 25px #000;
   border-radius: 5px;
   position: relative;
   @media (min-width: 768px) {
     width: 65%;
+  }
+  .main{
+    padding: 20px 0;
+    height: calc(100% - 110px);
+    overflow: auto;
   }
   .heading{
     display: flex;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import { Tab } from 'semantic-ui-react'
+import { Button, Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
 import './App.scss'
 import Semester from './Components/Semester/Semester';
@@ -7,7 +7,7 @@ import Semester from './Components/Semester/Semester';
 export default class App extends Component {
 
   state = {
-    semesters: 1,
+    semesters: 2,
     semesterResults: []
   }
 
@@ -38,6 +38,13 @@ export default class App extends Component {
         </div>
         <div className="main">
           {renderSemesters}
+
+          <Button animated>
+            <Button.Content visible>Add Semester</Button.Content>
+            <Button.Content hidden>
+              <Icon name='plus' />
+            </Button.Content>
+          </Button>
         </div>
         <div className="footer">
           <span>Calculations are performed by the equations and table provided on <a rel="noopener noreferrer" href="http://www.uok.edu.pk/sem_results/rules.php" target='_blank'>Official Website</a></span>

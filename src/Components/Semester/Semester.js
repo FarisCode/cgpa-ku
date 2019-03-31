@@ -18,7 +18,7 @@ export default class Semester extends Component {
       <div className='semesterComponent'>
         <div className="topBar">
           <h2 className="header">
-            Semester {this.props.id + 1}
+            Semester #{this.props.id + 1}
           </h2>
           <div className='closeIcon' onMouseEnter={() => { this.setState({ closeHovered: true }) }} onMouseLeave={() => { this.setState({ closeHovered: false }) }}>
             <Icon color={this.state.closeHovered ? 'red' : null} circular name='close' />
@@ -29,7 +29,7 @@ export default class Semester extends Component {
         </div>
         <div className="bottom">
           <div className="result">
-            Semester #1 GPA: 0.00
+            Semester #1 GPA: <strong>0.00</strong>
           </div>
           <Button basic animated>
             <Button.Content visible>Add Course</Button.Content>
