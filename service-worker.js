@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cgpa-ku/precache-manifest.989ebba8de167cd4237f3d08a8b2a3fd.js"
+  "/cgpa-ku/precache-manifest.ffb3b99b64f20a0723605dff96ae23cb.js"
 );
 
 workbox.clientsClaim();

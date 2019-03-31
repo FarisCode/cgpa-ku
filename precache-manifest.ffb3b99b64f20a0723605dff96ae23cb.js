@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "8fba30986b42f7a4a328",
-    "url": "/cgpa-ku/static/css/main.6f8d8a2b.chunk.css"
+    "revision": "75b0da5d3c066c81ce0a",
+    "url": "/cgpa-ku/static/css/main.d8a61d48.chunk.css"
   },
   {
     "revision": "b0239b456c91b318bbdd",
@@ -24,16 +24,12 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/cgpa-ku/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
     "revision": "cd6c777f1945164224dee082abaea03a",
     "url": "/cgpa-ku/static/media/outline-icons.cd6c777f.woff2"
   },
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/cgpa-ku/static/media/outline-icons.701ae6ab.eot"
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/cgpa-ku/static/media/outline-icons.ef60a4f6.woff"
   },
   {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
@@ -44,8 +40,12 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "8fba30986b42f7a4a328",
-    "url": "/cgpa-ku/static/js/main.99ace876.chunk.js"
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/cgpa-ku/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
+    "revision": "75b0da5d3c066c81ce0a",
+    "url": "/cgpa-ku/static/js/main.bb7a90b5.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/cgpa-ku/static/media/brand-icons.13db00b7.eot"
-  },
-  {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/cgpa-ku/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/cgpa-ku/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/css/2.e1e844a3.chunk.css"
   },
   {
-    "revision": "eab036995a3fd852cfabfc28374f3bd7",
+    "revision": "79e6e82c1ec0338261b3bf23fc3ce2a2",
     "url": "/cgpa-ku/index.html"
   }
 ];
