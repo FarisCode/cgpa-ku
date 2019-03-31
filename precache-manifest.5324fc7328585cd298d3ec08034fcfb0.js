@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "75b0da5d3c066c81ce0a",
-    "url": "/cgpa-ku/static/css/main.d8a61d48.chunk.css"
+    "revision": "26dd2a4eb44b96d43640",
+    "url": "/cgpa-ku/static/css/main.55085e98.chunk.css"
   },
   {
     "revision": "b0239b456c91b318bbdd",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/kuLogo.fe869e52.png"
   },
   {
-    "revision": "7d71e4ed1169b7bf8534",
-    "url": "/cgpa-ku/static/js/2.79e0b362.chunk.js"
+    "revision": "ff2784d37e46482bae06",
+    "url": "/cgpa-ku/static/js/2.ade91ef2.chunk.js"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -32,6 +32,10 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/outline-icons.ef60a4f6.woff"
   },
   {
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/cgpa-ku/static/media/outline-icons.701ae6ab.eot"
+  },
+  {
     "revision": "ad97afd3337e8cda302d10ff5a4026b8",
     "url": "/cgpa-ku/static/media/outline-icons.ad97afd3.ttf"
   },
@@ -40,12 +44,8 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/cgpa-ku/static/media/outline-icons.701ae6ab.eot"
-  },
-  {
-    "revision": "75b0da5d3c066c81ce0a",
-    "url": "/cgpa-ku/static/js/main.bb7a90b5.chunk.js"
+    "revision": "26dd2a4eb44b96d43640",
+    "url": "/cgpa-ku/static/js/main.109c3e69.chunk.js"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/icons.8e3c7f55.eot"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/cgpa-ku/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/cgpa-ku/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
     "url": "/cgpa-ku/static/media/outline-icons.82f60bd0.svg"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/cgpa-ku/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -84,11 +84,11 @@ self.__precacheManifest = [
     "url": "/cgpa-ku/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "7d71e4ed1169b7bf8534",
+    "revision": "ff2784d37e46482bae06",
     "url": "/cgpa-ku/static/css/2.e1e844a3.chunk.css"
   },
   {
-    "revision": "79e6e82c1ec0338261b3bf23fc3ce2a2",
+    "revision": "744cbb78b0c631af266057e3d35e762d",
     "url": "/cgpa-ku/index.html"
   }
 ];
